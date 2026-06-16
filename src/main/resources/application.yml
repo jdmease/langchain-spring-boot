@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: langchain-spring-boot
+
+langchain4j:
+  chat-model:
+    ollama:
+      base-url: http://localhost:11434
+      model-name: qwen3-coder:480b-cloud
