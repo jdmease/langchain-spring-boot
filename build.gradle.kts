@@ -23,6 +23,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
     implementation("dev.langchain4j:langchain4j-spring-boot-starter:$langchainVer")
     implementation("dev.langchain4j:langchain4j-ollama:${langchainVer.substringBefore("-")}")
+    implementation("dev.langchain4j:langchain4j-mcp:$langchainVer")
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
